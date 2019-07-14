@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+<style>
+
+body {
+	background: url( https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80);
+	background-repeat: no-repeat;
+	background-size: 100% 120%;
+	font-family: 'Arvo', serif;
+}
+
+img {
+	width: 200px;
+	height: 300px;
+}
+
+#para1 {
+	text-align: center;
+	color: darkslategray;
+	font-size: 45px;
+	line-height: 20%;
+	border-bottom-style: solid;
+	border-color: darkslategray;
+	border-width: 2px;
+	height: 30px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#para2 {
+	text-align: center;
+	font-size: 45px;
+	line-height: 10%;
+	color:darkslategray;
+}
+
+#para3 {
+	text-align: center;
+	font-size: 25px;
+	color: black;
+}
+
+#para4 {
+	font-size: 15px;
+
+}
+
+#para5 {
+	font-size: 24px;
+}
+img.rounded-corners {
+	border-radius: 100px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	text-align: center;
+	
+}
+
+ul {
+	text-align: center;
+	font-size: 32px;
+	list-style: inside;
+	border: 2px solid black;
+	border-radius: 95px;
+	border-width: 2px;
+	width: 45%;
+	margin: auto;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+button {
+	border-radius: 5px;
+    color: white;
+	background-color:dimgray;
+	padding: 5px 10px 8px 10px;
+	position: relative;
+	top: -300px;
+  }
+
+button:hover {
+	background-color: #4CAF50;
+    color: white;
+}
+
+#img {
+	position: relative;
+	top: -300px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.2);
+}
+</style>
+
+  <title>My First Website!</title>
+</head>
+<body>
+
+<h1 id="para1">My First Website! </h1>
+<p id="para2"><b>I'm learning to code! My goals include:</b></p>
+
+<ul>
+	<li>Code and improve everyday. </li>
+	<li>Go to meetups, meet and network with new people.</li>
+	<li>Finish FreeCodeCamp courses.</li>
+	<li>Finish Zero to Thirty Udemy course.</li>
+	<li>Have a beer with this doggo.</li>
+</ul>
+
+<p id="para3">These are a couple of the websites that i'm learning code from: 
+	<a href="https://www.freecodecamp.org/">FreeCodeCamp</a> and
+	<a href="https://www.udemy.com/">Udemy</a>
+</p>
+<h3 id="para4">If you would like to volunteer to take me to the dog park,<br>
+	 please leave your info here and my people will contact your people.</h3>
+	 <div id="para5">
+		 <form method="GET">
+				First Name:<input type="text" name="firstname"><br>
+				Last Name:<input type="text" name="lastname"><br>
+				Email: <input type="email" name="email" required><br>
+				Birthday: <input type="date" name="birthday"><br>
+				Gender:<br>
+				<input type="radio" name="Gender" value="male">Male<br>
+				<input type="radio"name="Gender" value="female">Female<br>
+				<input type="radio"name="Gender" value="other">Other<br>
+				<input type="Submit"value="Submit">
+				<input type="Reset">
+			</form>
+			</div>
+
+
+<img src=https://fuzzydose.com/wp-content/uploads/2018/06/dogid1.jpg alt="doglovesbeer" class="rounded-corners center" id="img">
+<br>
+
+<div class="center">
+<a href="https://www.amazon.com/Bowser-Beer-Beefy-12-Ounce-Bottles/dp/B0019LQ8OG">
+<button>
+ Donate for the cause here
+</button>
+</a>
+</div>
+
+</body>
+</html>
+
